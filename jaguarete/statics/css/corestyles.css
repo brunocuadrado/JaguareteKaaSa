@@ -1,0 +1,43 @@
+:root {
+    --color1: #005f24;
+    --color2: #005f24;
+    --color3: #01b948;
+    --color4: #80ff8a;
+    --color5: #9fffc7;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/back.jpg);
+    background-size: cover;
+}
+
+header{
+    background: var(--color1);
+}
+
+.logo img {
+    width: 400px;
+}
+
+.btn {
+    background: var(--color3);
+    color: #fff;
+}
+
+nav {
+    background: var(--color2);
+}
+
+.row1 {
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--color1);
+    color: #fff;
+    height: 4em;
+}

@@ -1,0 +1,35 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+
+{% block title %} Acerca de {% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row1">
+        <div class="col m-2">
+            <p class="h2 text-center text-white">
+                NOSOTROS
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12 m-auto">
+            <img src="{% static 'img/jaguare.png' %}" class="img-thumbnail p-5 m-5" alt="Imagen acerca de">
+        </div>
+        <div class="col-lg-6 col-sm-12 m-auto">
+            <p class="text-white text-capitalize">
+            Jaguarete KAA S.A es una juguetería online, creada por un Equipo
+            joven y dinámico que tiene como objetivo
+            facilitar y agilizar las compras de
+            juguetes por Internet. Creemos
+            firmemente en esta plataforma que
+            permite acceder a un palacio de juguetes
+            sin fronteras.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

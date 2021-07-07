@@ -1,0 +1,35 @@
+:root {
+    --color1: #ffffff;
+    --color2: #005f24;
+    --color3: #01b948;
+    --color4: #80ff8a;
+    --color5: #ffffff;
+
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/back.jpg);
+    background-size: cover;
+}
+
+.card {
+    background: var(--color2);
+}
+
+.card h3 {
+    color: var(--color5);
+}
+
+form .requiredField {
+    color: var(--color5);
+}
+
+form .footer-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .footer-card a {
+    text-decoration: none;
+    color: var(--color5)
+}
